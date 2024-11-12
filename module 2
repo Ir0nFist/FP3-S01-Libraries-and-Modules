@@ -1,7 +1,9 @@
  # manipulations.py
 
-  def reverse_string(s):
-      return s[::-1]
+ def reverse_string(s):
+    """Reverse the given string."""
+    return s[::-1]
 
-  def greeting(name):
-      return f"Hello, {name}! Welcome to the program."
+def greeting(name):
+    """Generate a greeting message."""
+    return f"Hello, {name}! Welcome to the program."
