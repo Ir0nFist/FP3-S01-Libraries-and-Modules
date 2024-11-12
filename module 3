@@ -1,0 +1,8 @@
+ # sample_data.py
+
+  fruits = ["apple", "banana", "cherry"]
+
+  def update_fruits(new_fruit):
+      """Adds a new fruit to the list and returns the updated list."""
+      fruits.append(new_fruit)
+      return fruits
