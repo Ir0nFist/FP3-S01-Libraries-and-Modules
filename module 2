@@ -1,0 +1,7 @@
+ # manipulations.py
+
+  def reverse_string(s):
+      return s[::-1]
+
+  def greeting(name):
+      return f"Hello, {name}! Welcome to the program."
